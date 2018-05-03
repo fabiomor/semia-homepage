@@ -1,0 +1,405 @@
+/* 
+
+Urbanic Template 
+
+http://www.templatemo.com/tm-395-urbanic
+
+*/
+
+body, html { overflow-x:hidden; }
+
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+	
+	font-weight: 300; 
+	font-style: normal; 
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p , a, span { 
+    font-family: 'Roboto Mono', 'Roboto', Helvetice Neue, sans-serif;
+    color: white; }
+
+h2 {
+    font-size: 190%;
+}
+
+p, a {
+    font-family: Roboto;
+    color: white;
+}
+
+hr {
+    border-style: solid;
+    border-color: #eb9218;
+}
+
+* {
+  -webkit-border-radius: 0 ;
+     -moz-border-radius: 0 ;
+          border-radius: 0 ;
+}
+
+a, a:hover, a:active, a:visited, a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #eb9218;
+}
+
+
+.templatemo_clear {
+	clear: both;
+}
+
+.templatemo-top-bar {
+    height: 40px;
+    background: #252525; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#252525, #1f1f1f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#252525, #1f1f1f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#252525, #1f1f1f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#252525, #1f1f1f); /* Standard syntax */
+}
+
+.templatemo-top-menu {
+    height: 50px;
+    background-color:#333333;
+}
+
+.templatemo-top-menu p {
+     font-family: 'Roboto Mono';
+     font-size: 30px;
+}
+
+
+.templatemo-top-bar .btn {
+    background-color: #EE9601;
+    color: white;
+    height: 22px;
+    border: 1px;
+    text-align: center;
+    font-size: 13px;
+    padding: 0px 6px 0px 6px;
+    font-family:  'Roboto Condensed', sans-serif;
+}
+
+.top-bar-element{
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+}
+.top-menu-title {
+    line-height: 50px;
+    height: 50px;
+}
+
+#date {
+    font-family: Roboto Condensed;
+    color: #666;
+}
+
+
+.templatemo-top-menu .navbar-toggle {
+    margin-top: 38px;
+}
+
+.templatemo-top-menu .navbar-brand {
+    padding: 0;
+    margin: 30px 0 0 0;
+}
+
+/* ------ Carousel ----- */
+
+#templatemo-carousel {
+    background: url('../images/semia_back.png') no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+    margin-bottom:0;
+    
+}
+
+#templatemo-carousel .carousel-caption {
+    z-index: 10px;
+}
+
+.carousel-caption {
+    /*top: 0;
+    bottom: auto;
+    top: 0;
+    left: 10%;
+    right: auto;
+    bottom: auto;*/
+    top: 0;
+    left: 3%;
+    right: auto;
+}
+
+.carousel-caption h1 {
+    font-family: Roboto;
+    font-size: 4.5em;
+    color: #eb9218;
+}
+
+.carousel-inner {
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+}
+
+#templatemo-carousel .carousel-inner > .item img {
+    border-radius: 15px;
+}
+
+
+
+/* ------ End of Carousel ----- */
+
+
+
+
+
+/* ------ Items ------ */
+.templatemo-welcome {
+    border-bottom: 1px solid #cccccc;
+    min-height: 230px;
+}
+
+.templatemo-service-item-header {
+    text-align: center;
+}
+
+.templatemo-service {
+    background-color: #333333;
+    margin-top: -35px;
+}
+
+.templatemo-service-item {
+    background-color: #828c26;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-left: 0 none;
+    border-right: 0 none;
+}
+
+
+.templatemo-service-item p {
+    padding: 0 15px 0 15px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+}
+
+
+.equal{
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    flex-wrap: wrap;
+}
+
+.equal  > div {  
+  display: flex;
+}
+
+.color-orange {
+    color: #eb9218;
+}
+
+.templatemo-line-header {
+    margin-top:100px;
+    margin-bottom:80px;
+}
+
+
+.templatemo-line-header span {
+    font-size: 18px; 
+    float :left; 
+    margin-top: 10px;
+}
+/* ------ News ------ */
+.templatemo-news {
+    background-color: #333333;
+}
+
+
+.news-container {
+    height: 200px;
+    width: 100%;
+    padding: 1%;
+    overflow: auto;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #EE9601;
+}
+
+.news-container > p {
+    text-align: left;
+    color: #828c26;
+}
+
+
+/* ------ Footer ------ */
+
+.templatemo-footer {
+    background-color: #333333;
+    text-align: left;
+}
+
+.templatemo-footer-backup {
+    background: #1f1f1f; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1f1f1f, #252525); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1f1f1f, #252525); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1f1f1f, #252525); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1f1f1f, #252525); /* Standard syntax */
+    text-align: center;
+}
+
+.footer_content {
+    margin-top: 2%;
+}
+
+.footer_content img {
+    margin-top: 10px;
+}
+
+.footer_content i {
+    color: #eb9218; 
+}
+
+.details {
+    margin-bottom: 8%;
+}
+
+/* ------ Credits ------ */
+
+.templatemo-credits {
+    background: #1f1f1f; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1f1f1f, #252525); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1f1f1f, #252525); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1f1f1f, #252525); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1f1f1f, #252525); /* Standard syntax */
+    text-align: center;
+}
+
+.credits-content {
+    margin-top: 20px;
+    text-align: left;
+}
+
+
+.copyright {
+    text-align: center;
+}
+
+
+/* Large devices */
+@media (min-width: 1201px) {
+
+}
+
+/* Medium devices */
+@media (min-width:992px) and (max-width:1200px) {
+
+    .templatemo-service-item-header {
+        padding: 16px 10px 20px;
+    }
+
+    .templatemo-header-orange {
+        min-width: 230px;
+    }
+
+    .team_box,  .team_box_over {
+        height:220px;
+        width:220px;
+    }
+	
+}
+
+/* Small devices */
+@media (min-width:768px) and (max-width:991px) {
+    #templatemo-carousel .item {
+        /* height: 450px; */
+    }
+    
+    .templatemo-service-item h2 {
+        font-size: 150%;
+    }
+
+    .templatemo-service-item p {
+        font-size: 90%;
+    }
+
+    .footer_content, .footer_content li, .credits-content {
+        text-align: center;
+    }
+}
+
+/* XSmall devices */
+@media (max-width: 767px) {
+     #templatemo-carousel .item {
+        /* height: 300px; */
+    }
+
+    .carousel-caption h1 {
+        font-size: 240%;
+    }
+
+    .templatemo-service-item h2 {
+        font-size: 150%;
+    }
+
+    .templatemo-service-item p {
+        font-size: 90%;
+    }
+
+    .footer_content, .footer_content li, .credits-content {
+        text-align: center;
+    }
+}
+
+/********** Super extra small devices Only **********/
+@media (max-width: 479px) {
+    .col-xs-6 {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+
+    .templatemo-service {
+        margin-top: 0px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 160%;
+    }
+
+    .carousel-caption {
+        top: -14.5%;
+    }
+
+    .templatemo-service-item h2 {
+        font-size: 150%;
+    }
+
+    .templatemo-service-item p {
+        font-size: 90%;
+    }
+
+    .footer_content, .footer_content li, .credits-content {
+        text-align: center;
+    }
+
+    .templatemo-service-item {
+        margin-top: : 15px;
+    }
+}
