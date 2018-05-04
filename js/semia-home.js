@@ -14,9 +14,17 @@ $(document).ready(function() {
     var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
     document.getElementById("date").innerHTML = new Date().toLocaleDateString("it-IT", options);
     $('.expand-content').magnificPopup({
-        type: 'inline'
+        type: 'inline',
+        closeOnBgClick: true,
+        closeBtnInside: true,
+        showCloseBtn: true,
+        midClick: true
     });
 });
 
+$(document).on('click', '.close-button', function(e) {
+    e.preventDefault();
+    $.magnificPopup.close();
+});
 
 

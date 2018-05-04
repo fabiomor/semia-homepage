@@ -199,13 +199,19 @@ a:hover {
 
 .templatemo-service-item-popup {
     background-color: #828c26;
-    width: 50%;
     position: relative;
     width:auto;
     max-width: 50%;
     margin: 0 auto; 
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+.close-button {
+    position: absolute;
+    color: white;
+    top: 10px;
+    right: 10px;
 }
 
 .equal{
@@ -394,6 +400,10 @@ a:hover {
     .col-xs-6 {
         margin-left: 0 !important;
         width: 100% !important;
+    }
+
+    .templatemo-service-item-popup {
+        max-width: 80%;
     }
 
     .templatemo-service {
