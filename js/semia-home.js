@@ -16,8 +16,8 @@ $(document).ready(function() {
     $('.expand-content').magnificPopup({
         type: 'inline',
         closeOnBgClick: true,
-        closeBtnInside: true,
-        showCloseBtn: true,
+        closeBtnInside: false,
+        showCloseBtn: false,
         midClick: true
     });
 });
