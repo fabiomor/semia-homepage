@@ -171,6 +171,7 @@ a:hover {
 
 .templatemo-service-item-header {
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .templatemo-service {
@@ -295,8 +296,23 @@ a:hover {
     margin-top: 10px;
 }
 
-.footer_content i {
+.footer_content i, .contacts-popup i {
     color: #eb9218; 
+}
+
+.tec-partners-title {
+    text-align: center;
+}
+
+.contacts-popup {
+    background-color: #333333;
+    text-align: center;
+    position: relative;
+    width:auto;
+    max-width: 50%;
+    margin: 0 auto; 
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .details {
