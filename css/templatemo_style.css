@@ -149,8 +149,8 @@ a:hover {
 }
 
 .carousel-inner {
-    margin-top: 2%;
-    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-bottom: 55px;
 }
 
 #templatemo-carousel .carousel-inner > .item img {
@@ -173,7 +173,7 @@ a:hover {
 
 .templatemo-service-item-header {
     text-align: center;
-    padding: 10px 0 10px 0;
+    padding-bottom: 10px;
 }
 
 .templatemo-service {
@@ -188,7 +188,6 @@ a:hover {
     border-left: 0 none;
     border-right: 0 none;
     min-width: 100%;
-    height: 280px;
 }
 
 .templatemo-service-item p, .templatemo-service-item-popup p{
@@ -221,7 +220,6 @@ a:hover {
     right: 10px;
 }
 
-/*
 .equal{
     display: -webkit-box;    
     display: -moz-box;         
@@ -234,9 +232,6 @@ a:hover {
 .equal > div {  
   display: flex;
 }
-*/
-
-
 
 .color-orange {
     color: #eb9218;
