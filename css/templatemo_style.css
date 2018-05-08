@@ -15,7 +15,7 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, p , a, span { 
+h1, h2, h3, h4, h5, h6, p , a { 
     font-family: 'Roboto Mono', 'Roboto', Helvetice Neue, sans-serif;
     color: white; }
 
@@ -43,13 +43,15 @@ a, a:focus, a:hover, a:active, a:visited, a:link {
     text-decoration: none !important;
     border: none;
     outline: none;
-    color: inherit;
 }
 
 a:hover {
     color: #eb9218;
 }
 
+p > a {
+    color: #eb9218;
+}
 
 .templatemo_clear {
 	clear: both;
@@ -148,7 +150,7 @@ a:hover {
 
 .carousel-inner {
     margin-top: 2%;
-    margin-bottom: 1.5%;
+    margin-bottom: 60px;
 }
 
 #templatemo-carousel .carousel-inner > .item img {
@@ -171,7 +173,7 @@ a:hover {
 
 .templatemo-service-item-header {
     text-align: center;
-    margin-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .templatemo-service {
@@ -196,11 +198,15 @@ a:hover {
 .templatemo-service-item-popup {
     background-color: #828c26;
     position: relative;
-    width:auto;
-    max-width: 50%;
-    margin: 0 auto; 
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 0 10px 0; 
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+.templatemo-service-item-popup .templatemo-service-item-header {
+    padding-top: 10px;
 }
 
 .close-button {
@@ -225,6 +231,7 @@ a:hover {
 
 .color-orange {
     color: #eb9218;
+    font-weight: bold;
 }
 
 .templatemo-line-header {
@@ -259,6 +266,7 @@ a:hover {
     border-style: solid;
     border-radius: 10px;
     border-color: #EE9601;
+    margin: 20px 0 20px 0;
 }
 
 .news-container > p {
@@ -300,16 +308,19 @@ a:hover {
     color: #eb9218; 
 }
 
-.tec-partners-title {
-    text-align: center;
+.partners-title {
+    text-align: left;
+}
+
+.partners-hr {
+    border-color: #666;
 }
 
 .contacts-popup {
     background-color: #333333;
     text-align: center;
     position: relative;
-    width:auto;
-    max-width: 50%;
+    width: 70%;
     margin: 0 auto; 
     border-radius: 10px;
     margin-bottom: 10px;
@@ -349,9 +360,11 @@ a:hover {
 /* Medium devices */
 @media (min-width:992px) and (max-width:1200px) {
 
+    /*
     .templatemo-service-item-header {
         padding: 16px 10px 20px;
     }
+    */
 
     .templatemo-header-orange {
         min-width: 230px;
@@ -413,8 +426,12 @@ a:hover {
         width: 100% !important;
     }
 
+    .carousel-inner {
+        margin-bottom: 10px;
+    }
+
     .templatemo-service-item-popup {
-        max-width: 80%;
+        max-width: 95%;
     }
 
     .templatemo-service {
@@ -437,7 +454,13 @@ a:hover {
         font-size: 90%;
     }
 
-    
+    .partners-title {
+        text-align: center;
+    }
+
+    .contacts-popup {
+        width: 95%;
+    }
 
     .footer_content, .footer_content li, .credits-content {
         text-align: center;
