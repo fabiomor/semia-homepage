@@ -23,10 +23,12 @@ h2 {
     font-size: 190%;
 }
 
-p, a {
-    font-family: Roboto;
+p, a, ul {
+    font-family: 'Roboto';
     color: white;
 }
+
+
 
 hr {
     border-style: solid;
@@ -40,9 +42,10 @@ hr {
 }
 
 a, a:focus, a:hover, a:active, a:visited, a:link {
-    text-decoration: none !important;
+    text-decoration: none;
     border: none;
     outline: none;
+    color: inherit;
 }
 
 a:hover {
@@ -50,7 +53,7 @@ a:hover {
 }
 
 p > a {
-    color: #eb9218;
+    color: #eb9218 !important; 
 }
 
 .templatemo_clear {
@@ -190,8 +193,12 @@ p > a {
     min-width: 100%;
 }
 
-.templatemo-service-item p, .templatemo-service-item-popup p {
+.templatemo-service-item p, .templatemo-service-item-popup p{
     padding: 0 15px 0 15px;
+    font-size: 14px;
+}
+
+.templatemo-service-item-popup ul {
     font-size: 14px;
 }
 
@@ -225,7 +232,7 @@ p > a {
     flex-wrap: wrap;
 }
 
-.equal  > div {  
+.equal > div {  
   display: flex;
 }
 
