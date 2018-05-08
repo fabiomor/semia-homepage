@@ -52,9 +52,6 @@ a:hover {
     color: #eb9218;
 }
 
-p > a {
-    color: #eb9218 !important; 
-}
 
 .templatemo_clear {
 	clear: both;
@@ -238,6 +235,10 @@ p > a {
 
 .color-orange {
     color: #eb9218;
+}
+
+.color-accent {
+    color: #333333;
     font-weight: bold;
 }
 
@@ -315,12 +316,18 @@ p > a {
     color: #eb9218; 
 }
 
+.partners-section {
+    margin-bottom: 5%;
+}
+
 .partners-title {
     text-align: left;
+    margin-bottom: 0;
 }
 
 .partners-hr {
     border-color: #666;
+    margin-top: 0;
 }
 
 .contacts-popup {
