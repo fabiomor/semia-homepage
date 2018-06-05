@@ -28,7 +28,9 @@ p, a, ul {
     color: white;
 }
 
-
+h4 {
+    padding-top: 3%;
+}
 
 hr {
     border-style: solid;
@@ -173,7 +175,7 @@ a:hover {
 
 .templatemo-service-item-header {
     text-align: center;
-    padding-bottom: 10px;
+    padding: 10px 0 5px 0;
 }
 
 .templatemo-service {
