@@ -2,7 +2,7 @@
 body, html { overflow-x:hidden; }
 
 body {
-    background-color: #ffffff;
+    background-color: #252525;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Roboto Mono', monospace;
@@ -153,8 +153,8 @@ a:hover {
     margin-bottom: 55px;
 }
 
-#templatemo-carousel .carousel-inner > .item img {
-    border-radius: 15px;
+.carousel-inner  img {
+    border-radius: 15px !important; 
 }
 
 
@@ -306,6 +306,7 @@ a:hover {
 
 .footer_content {
     margin-top: 2%;
+    padding-bottom: 2%;
 }
 
 .footer_content img {
