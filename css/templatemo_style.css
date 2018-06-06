@@ -2,7 +2,7 @@
 body, html { overflow-x:hidden; }
 
 body {
-    background-color: #252525;
+    background-color: #333333;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Roboto Mono', monospace;
@@ -356,6 +356,7 @@ a:hover {
     background: -moz-linear-gradient(#1f1f1f, #252525); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#1f1f1f, #252525); /* Standard syntax */
     text-align: center;
+    padding-top: 20px;
 }
 
 .credits-content {
